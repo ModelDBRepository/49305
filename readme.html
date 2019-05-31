@@ -1,0 +1,130 @@
+<html><body>
+
+Note: 
+<a href="http://www.cns.atr.jp/neuroinfo/doi/doiJNSdemo.tar.gz">Click here for the model tar.gz file</a> available from <a href="http://www.cns.atr.jp/neuroinfo/doi/indexE.html">http://www.cns.atr.jp/neuroinfo/doi/indexE.html</a>
+<hr/>Note from the ModelDB administrator:  here are some notes from an original readme supplied by the authors:
+<hr>
+<p>Instruction for demo simulations that generate the simulation figures in<br>
+<br>
+Tomokazu Doi, Shinya Kuroda, Takayuki Michikawa, and Mitsuo Kawato<br>
+Inositol 1,4,5-Tripshosphate-Dependent Ca2+ Threshold Dynamics Detect Spike Timing in Cerebellar Purkinje Cells.<br>
+The Journal of Neuroscience 25(4): 950-961, 2005<br>
+<br>
+<br>
+The simulation requires GENESIS version 2.2 and kinetikit version 9 or
+higher. Both of which are included in the compressed file you have
+downloaded. We have confirmed that our simulation scripts run on Red
+Hat Linux version 8 and Pentium 4 PCs. <br>
+<br>
+<br>
+////////////////////////////////////////////////////////////////<br>
+<br>
+HOW TO RUN DEMOS<br>
+<br>
+<br>
+To extract doiJNSdemo.tar.gz, type<br>
+<br>
+tar zxvf doiJNSdemo.tar.gz<br>
+<br>
+<br>
+The created directory has several files named fig*.g.  To run demos, just type<br>
+<br>
+genesis fig3.g<br>
+(or choose other files named fig*.g)<br>
+<br>
+GENESIS/kinetikit includes model scripts for the simulation, and displays
+and saves simulation results in 'simresult/fig*/'. In simresult/fig*/,
+there are MALTAB scripts files (*.m) which display the simulation results
+as in the JNS paper. Comments in fig*.g might be useful to understand how
+GENESIS/kinetikit works.<br>
+<br>
+Some simulations take enormous time, more than months.  Here is a list of expected time for simulation on a 2 GHz Pentium 4 PC.<br>
+<br>
+<br>
+</p>
+<table border="1">
+  <tbody>
+    <tr>
+      <td>fig3.g</td>
+      <td align="right">4 min</td>
+    </tr>
+    <tr>
+      <td>fig4.g</td>
+      <td align="right">12 min</td>
+    </tr>
+    <tr>
+      <td>fig5.g</td>
+      <td align="right">20 min</td>
+    </tr>
+    <tr>
+      <td>fig6A.g</td>
+      <td align="right">3 min</td>
+    </tr>
+    <tr>
+      <td>fig6B.g</td>
+      <td align="right">7 hrs</td>
+    </tr>
+    <tr>
+      <td>fig6C.g</td>
+      <td align="right">3 min</td>
+    </tr>
+    <tr>
+      <td>fig7A.g</td>
+      <td align="right">12 min</td>
+    </tr>
+    <tr>
+      <td>fig7B.g</td>
+      <td align="right">9 hrs</td>
+    </tr>
+    <tr>
+      <td>fig8CDE.g</td>
+      <td align="right">80 min</td>
+    </tr>
+    <tr>
+      <td>fig8F.g</td>
+      <td align="right">10 days</td>
+    </tr>
+    <tr>
+      <td>fig9.g</td>
+      <td align="right">25 min</td>
+    </tr>
+    <tr>
+      <td>fig11A.g</td>
+      <td align="right">4 min</td>
+    </tr>
+    <tr>
+      <td>figS2A.g</td>
+      <td align="right">12 min</td>
+    </tr>
+    <tr>
+      <td>figS2BCDE.g</td>
+      <td align="right">1 day</td>
+    </tr>
+    <tr>
+      <td>figS2F.g</td>
+      <td align="right">27 hrs</td>
+    </tr>
+    <tr>
+      <td>figS2G.g</td>
+      <td align="right">4 hrs</td>
+    </tr>
+    <tr>
+      <td>figS2HIJK.g</td>
+      <td align="right">120 days</td>
+    </tr>
+  </tbody>
+</table>
+<p><br>
+<br>To load the model scripts without demos, type<br>
+genesis DoiCaModel.g<br>
+<br>
+All of the model parameters has notes in the scripts, which are identical to Supplemental Tables 1-3. <br>
+<br>
+////////////////////////////////////////////////////////////////<br>
+<br>
+Tomoakazu Doi, <br>
+ATR Computational Neuroscience Labs,<br>
+26 Jan 2005<br>
+<br>
+</p>
+</body></html>
